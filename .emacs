@@ -28,6 +28,10 @@
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
+;; set package pinning
+;;(require 'package)
+;;(add-to-list 'package-pinned-packages '(magit . "melpa"))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -42,11 +46,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-;;(require 'package)
-;;(add-to-list 'package-archives
-;;	     '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/") t)
-;;(add-to-list 'package-pinned-packages '(magit . "melpa-stable"))
 
 ;; monokai theme settings
 (load-file "~/.emacs.d/elpa/monokai-theme-20150112.442/monokai-theme.el")
