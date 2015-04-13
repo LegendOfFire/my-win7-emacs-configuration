@@ -34,13 +34,19 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes (quote ("436ae3105bb26b7e3edbd624612ee3ba929fd568d3b3bd1f72e6aa2b0cab1bb7" "4e262566c3d57706c70e403d440146a5440de056dfaeb3062f004da1711d83fc" default)))
- '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("melpa" . "http://melpa.org/packages/")))))
+ '(exec-path (quote ("c:/python27/" "c:/Rtools/bin" "c:/Rtools/gcc-4.6.3/bin" "C:/ProgramData/Oracle/Java/javapath" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0/" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/Program Files (x86)/SQL11/DLL" "C:/Program Files (x86)/SQL11/BIN" "C:/Program Files/Microsoft Network Monitor 3/" "C:/Program Files/Intel/WiFi/bin/" "C:/Program Files/Common Files/Intel/WirelessCommon/" "C:/Program Files/TortoiseSVN/bin" "C:/Program Files (x86)/Git/bin" "C:/Program Files (x86)/IDM Computer Solutions/UltraEdit/" "c:/Program Files (x86)/emacs-24.2-bin-i386/emacs-24.2/bin" "c:/Program Files (x86)/nodejs/")))
+ '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("melpa" . "http://melpa.org/packages/") ("melpa-stable" . "http://stable.melpa.org/packages/")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;;(require 'package)
+;;(add-to-list 'package-archives
+;;	     '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/") t)
+;;(add-to-list 'package-pinned-packages '(magit . "melpa-stable"))
 
 ;; monokai theme settings
 (load-file "~/.emacs.d/elpa/monokai-theme-20150112.442/monokai-theme.el")
