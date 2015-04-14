@@ -51,8 +51,9 @@
 (load-file "~/.emacs.d/elpa/monokai-theme-20150112.442/monokai-theme.el")
 (load-theme 'monokai t)
 
-;; install ido mode
-(ido-mode 1)
 ;; display any item that contains the chars you typed
 (setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+;; install ido mode
+(ido-mode 1)
 
